@@ -10,7 +10,7 @@ const displayProducts = (products, center) => {
   let display = products.map(
     ({ title, image, price }) => `<div class="product">
           <div class="product-header">
-            <img src=${images} alt="product">
+            <img src=${image} alt="product">
           </div>
           <div class="product-footer">
             <h3>${title}</h3>
